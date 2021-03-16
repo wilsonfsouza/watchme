@@ -1,0 +1,26 @@
+header {
+  text-align: left;
+  max-width: 15rem;
+  margin: 0 auto;
+
+  span.category {
+    display: block;
+    margin-top: 2rem;
+
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--gray);
+  }
+
+  span {
+    color: var(--white);
+  }
+  @media screen and (min-width: 640px) {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  @media screen and (min-width: 868px) {
+    text-align: left;
+  }
+}
