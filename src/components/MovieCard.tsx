@@ -12,6 +12,7 @@ interface MovieCardProps {
 export function MovieCard(props: MovieCardProps) {
   return (
     <div className="movie-card">
+      <span className="movie-poster-filter"></span>
       <img
         src={props.poster}
         alt={props.title}
